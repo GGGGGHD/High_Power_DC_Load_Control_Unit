@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM2678S-12_NOPB")(type "KiCad")(uri "/home/muhammed-s/Desktop/HIGH_Power_DC_Load_Control_Unit/LIB_LM2678S-12_NOPB/LM2678S-12_NOPB/KiCad/LM2678S-12_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "SK32")(type "KiCad")(uri "/home/muhammed-s/Desktop/HIGH_Power_DC_Load_Control_Unit/LIB_SK32/SK32/KiCad/SK32.kicad_sym")(options "")(descr ""))
+)
