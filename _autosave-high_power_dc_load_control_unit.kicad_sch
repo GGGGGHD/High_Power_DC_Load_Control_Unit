@@ -2139,22 +2139,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 16.51 7.62 0)
+			(property "Reference" "IC1"
+				(at 16.51 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Value" "STPS60L45CW"
-				(at 16.51 5.08 0)
+				(at 16.51 -3.8099 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Footprint" "TO545P515X1560X2445-3P"
@@ -2267,7 +2267,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 20.32 -2.54 180)
 					(length 5.08)
 					(name "K"
 						(effects
@@ -2937,26 +2937,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 11.16 0)
+			(property "Reference" "U1"
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "UCC5350MCD"
-				(at -12.7 -14.16 0)
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "UCC5350MCD:SOIC127P599X175-8N"
-				(at 0 0 0)
+				(at 2.032 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2984,7 +2982,7 @@
 				)
 			)
 			(property "MF" "Texas Instruments"
-				(at 0 0 0)
+				(at 4.318 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2994,7 +2992,7 @@
 				)
 			)
 			(property "Description_1" "\n                        \n                            3kVrms, 5A/5A single-channel isolated gate driver with miller clamp or split out & 8V or 12V UVLO\n                        \n"
-				(at 0 0 0)
+				(at 0.762 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3004,7 +3002,7 @@
 				)
 			)
 			(property "Package" "SOIC-8 Texas Instruments"
-				(at 0 0 0)
+				(at 1.016 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3014,7 +3012,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at 0 0 0)
+				(at 1.27 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3024,7 +3022,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/UCC5350MCD/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
+				(at 2.286 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3034,7 +3032,7 @@
 				)
 			)
 			(property "MP" "UCC5350MCD"
-				(at 0 0 0)
+				(at 2.286 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3044,7 +3042,7 @@
 				)
 			)
 			(property "Availability" "In Stock"
-				(at 0 0 0)
+				(at 0.254 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3054,7 +3052,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/UCC5350MCD/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
+				(at 3.302 -20.066 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3076,7 +3074,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -5.08 0)
+					(at -17.78 5.08 0)
 					(length 5.08)
 					(name "VCC1"
 						(effects
@@ -3130,7 +3128,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 2.54 0)
+					(at -17.78 -6.35 0)
 					(length 5.08)
 					(name "GND1"
 						(effects
@@ -3166,7 +3164,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 0 180)
+					(at 17.78 -2.54 180)
 					(length 5.08)
 					(name "OUT"
 						(effects
@@ -3201,8 +3199,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 -2.54 180)
+			)
+			(symbol "UCC5350MCD_1_0"
+				(pin passive line
+					(at 17.78 -7.62 180)
 					(length 5.08)
 					(name "VEE2"
 						(effects
@@ -3919,6 +3919,12 @@
 		(uuid "7ee69913-9bfd-4dee-8ad9-fc9047a28c0f")
 	)
 	(junction
+		(at 266.7 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "812aa4ae-8b9c-4543-9ee5-0ec3c2af491b")
+	)
+	(junction
 		(at 77.47 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4094,7 +4100,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 72.39) (xy 266.7 91.44)
+			(xy 266.7 72.39) (xy 266.7 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4354,16 +4360,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 91.44) (xy 266.7 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f019b6a-3a94-41c8-ba22-4aa38c66c834")
-	)
-	(wire
-		(pts
 			(xy 77.47 105.41) (xy 77.47 106.68)
 		)
 		(stroke
@@ -4391,6 +4387,16 @@
 			(type default)
 		)
 		(uuid "222539cf-e1df-4eca-88fc-1bda9471f656")
+	)
+	(wire
+		(pts
+			(xy 191.77 85.09) (xy 194.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2583b75d-45c0-4d9d-8954-f7f60d07791c")
 	)
 	(wire
 		(pts
@@ -4441,16 +4447,6 @@
 			(type default)
 		)
 		(uuid "2909b3cc-cf5a-4b26-a932-3a4f7c103578")
-	)
-	(wire
-		(pts
-			(xy 30.48 167.64) (xy 31.75 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29712b88-26c5-4ea8-b084-0c8c15f6e2d8")
 	)
 	(wire
 		(pts
@@ -4584,16 +4580,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 39.37) (xy 158.75 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33c24ed6-5307-4d9c-b3f7-16af008840a7")
-	)
-	(wire
-		(pts
 			(xy 78.74 118.11) (xy 78.74 140.97)
 		)
 		(stroke
@@ -4601,6 +4587,16 @@
 			(type default)
 		)
 		(uuid "3805f05d-fea8-4673-9e41-feefc0713452")
+	)
+	(wire
+		(pts
+			(xy 213.36 99.06) (xy 201.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "386f6101-0d68-4598-a242-e4a8b08a9fd9")
 	)
 	(wire
 		(pts
@@ -4614,13 +4610,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 39.37) (xy 160.02 39.37)
+			(xy 158.75 26.67) (xy 158.75 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3969a244-90be-424b-aafe-6a8bad5d257d")
+		(uuid "3d7888d5-6208-466e-b241-1a038fbefbaf")
 	)
 	(wire
 		(pts
@@ -4744,16 +4740,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 95.25) (xy 213.36 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4de7d5d2-b07e-467a-9dd2-40e6423b6672")
-	)
-	(wire
-		(pts
 			(xy 208.28 29.21) (xy 201.93 29.21)
 		)
 		(stroke
@@ -4771,16 +4757,6 @@
 			(type default)
 		)
 		(uuid "4e57caa3-5a2a-4998-b959-81d8207e1d0b")
-	)
-	(wire
-		(pts
-			(xy 158.75 85.09) (xy 213.36 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eb3934e-1c66-45bd-afeb-be743533fa3b")
 	)
 	(wire
 		(pts
@@ -4851,16 +4827,6 @@
 			(type default)
 		)
 		(uuid "558140f2-1cb6-4a33-aeee-7d6fa88e5c65")
-	)
-	(wire
-		(pts
-			(xy 213.36 99.06) (xy 201.93 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "569e87b1-c471-487d-9441-19d69eedcc73")
 	)
 	(wire
 		(pts
@@ -4984,6 +4950,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 26.67) (xy 160.02 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67003d99-141c-404c-a38c-2fc83b412567")
+	)
+	(wire
+		(pts
 			(xy 208.28 38.1) (xy 208.28 44.45)
 		)
 		(stroke
@@ -5001,16 +4977,6 @@
 			(type default)
 		)
 		(uuid "68c97235-bf57-4fd5-b52c-945bc1486372")
-	)
-	(wire
-		(pts
-			(xy 157.48 25.4) (xy 160.02 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69123419-1f47-46e4-9278-400c5bdbdf87")
 	)
 	(wire
 		(pts
@@ -5314,7 +5280,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 77.47) (xy 196.85 80.01)
+			(xy 158.75 85.09) (xy 191.77 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad0cd69-4a50-48bc-89d4-682cd3672e8e")
+	)
+	(wire
+		(pts
+			(xy 196.85 77.47) (xy 196.85 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5664,6 +5640,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 167.64) (xy 30.48 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e576eb-8857-4043-8fac-7e538fdad638")
+	)
+	(wire
+		(pts
 			(xy 20.32 121.92) (xy 20.32 120.65)
 		)
 		(stroke
@@ -5784,7 +5770,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 80.01) (xy 213.36 80.01)
+			(xy 196.85 82.55) (xy 213.36 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5854,7 +5840,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 25.4) (xy 157.48 90.17)
+			(xy 157.48 39.37) (xy 157.48 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5904,6 +5890,26 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 87.63) (xy 213.36 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca68e94d-e4e8-483a-8832-bd20b5f93dc2")
+	)
+	(wire
+		(pts
+			(xy 266.7 85.09) (xy 266.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd58e113-56e2-4551-b66a-6a9519118254")
+	)
+	(wire
+		(pts
 			(xy 50.8 57.15) (xy 55.88 57.15)
 		)
 		(stroke
@@ -5921,6 +5927,16 @@
 			(type default)
 		)
 		(uuid "cf067d61-a885-4fbf-a296-56fbf0b94f67")
+	)
+	(wire
+		(pts
+			(xy 213.36 93.98) (xy 213.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f46022-b4de-42c5-8460-d51a8a0ee89c")
 	)
 	(wire
 		(pts
@@ -6034,6 +6050,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 90.17) (xy 266.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69e1e96-3903-42d4-9490-d819d6313b33")
+	)
+	(wire
+		(pts
 			(xy 27.94 119.38) (xy 27.94 130.81)
 		)
 		(stroke
@@ -6101,6 +6127,16 @@
 			(type default)
 		)
 		(uuid "ee5fefc4-9cac-47df-9fd7-078d1c331733")
+	)
+	(wire
+		(pts
+			(xy 157.48 39.37) (xy 160.02 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9795ab-e53a-4925-883e-bf0b27c7c992")
 	)
 	(wire
 		(pts
@@ -6309,6 +6345,17 @@
 		)
 		(uuid "10794daf-f52d-49b7-a366-77a05c8b3a09")
 	)
+	(label "DC-DC_CONV_GND"
+		(at 21.59 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "115a8148-7c89-48ca-9ae3-8eac7e693ce9")
+	)
 	(label "GND_HIGH"
 		(at 252.73 96.52 0)
 		(fields_autoplaced yes)
@@ -6320,6 +6367,17 @@
 		)
 		(uuid "1fc41cad-6d6e-4852-9d73-07a96c5013ce")
 	)
+	(label "IN+<-->PWM"
+		(at 173.99 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29748c12-1bc9-4179-9d59-5f41eb7524c2")
+	)
 	(label "Vin"
 		(at 29.21 19.05 180)
 		(fields_autoplaced yes)
@@ -6330,17 +6388,6 @@
 			(justify right bottom)
 		)
 		(uuid "2f5abf50-71e5-4135-a8de-6ea3ed45ff86")
-	)
-	(label "GND_A"
-		(at 204.47 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "34288cce-1338-4b35-9a75-05eecd59a271")
 	)
 	(label "MOS_GND"
 		(at 27.94 128.27 0)
@@ -6397,6 +6444,17 @@
 		)
 		(uuid "59460ba4-33c4-4d6e-a5a6-753ef1d653bd")
 	)
+	(label "DC-DC_CONV_GND"
+		(at 31.75 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "892e0fea-6485-4033-99c6-892f3954be68")
+	)
 	(label "VCC3V3"
 		(at 226.06 21.59 0)
 		(fields_autoplaced yes)
@@ -6418,17 +6476,6 @@
 			(justify left bottom)
 		)
 		(uuid "a0397ea6-7745-4fbe-9685-fcdbcf9e083a")
-	)
-	(label "CLMP_MOS_DRIVE_TIGGER"
-		(at 256.54 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9210970-96df-4d86-ade1-3c0688bbc4b9")
 	)
 	(label "SW_PIN"
 		(at 259.08 21.59 0)
@@ -6463,6 +6510,17 @@
 		)
 		(uuid "c50b0d4f-0546-43b3-a5c0-e0f054b3514e")
 	)
+	(label "R20<->IN-"
+		(at 194.31 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0e299de-6ae0-4f82-bd25-62d139370521")
+	)
 	(label "mos_gate_input"
 		(at 39.37 114.3 0)
 		(fields_autoplaced yes)
@@ -6484,6 +6542,17 @@
 			(justify left bottom)
 		)
 		(uuid "ee032cc6-e38b-4bbc-b156-6af1b0fe6f79")
+	)
+	(label "CLMP<-->R1"
+		(at 250.19 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9860634-ba42-4a94-b0c5-e1146e4cce7e")
 	)
 	(global_label "+40V"
 		(shape input)
@@ -6750,7 +6819,7 @@
 		)
 	)
 	(global_label "NTC_3_OUT"
-		(shape input)
+		(shape output)
 		(at 231.14 128.27 0)
 		(fields_autoplaced yes)
 		(effects
