@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "RT9193-33GB")(type "KiCad")(uri "/home/muhammed-s/Desktop/HIGH_Power_DC_Load_Control_Unit/Libraries/Linear Regulator/RT9193-33GB(1)/Library.pretty/RT9193-33GB.pretty")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "/home/muhammed-s/Desktop/HIGH_Power_DC_Load_Control_Unit/COnnectors/MIcro_usb/1051330001/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "RS6")(type "KiCad")(uri "/home/muhammed-s/Desktop/HIGH_Power_DC_Load_Control_Unit/Libraries/Mosfet/LIB_RS6P100BHTB1/RS6P100BHTB1/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "NCP18XH103F03RB")(type "KiCad")(uri "/home/muhammed-s/Desktop/HIGH_Power_DC_Load_Control_Unit/NTC_Temperature_Sensors/NCP18XH103F03RB")(options "")(descr ""))
+  (lib (name "UCC5350MCD")(type "KiCad")(uri "/home/muhammed-s/Desktop/HIGH_Power_DC_Load_Control_Unit/Libraries/Mosfet Driver/UCC5350MCD")(options "")(descr ""))
 )
